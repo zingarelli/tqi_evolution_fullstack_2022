@@ -1,0 +1,21 @@
+button{
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:1px solid #000;
+    border-radius: 10px;    
+    box-shadow: 3px 3px 5px 3px #dddddd;
+    padding: 30px 20px;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    border:2px solid #00F;
+    margin: 9px 19px; /* to compensate the increase in border width*/
+}
+
+img{
+    width: 150px;
+}

@@ -1,0 +1,17 @@
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 20px;
+}
+
+.title{
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.actions{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
