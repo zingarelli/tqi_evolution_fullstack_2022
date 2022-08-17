@@ -1,5 +1,6 @@
-button{
+.container{
     background-color: #FFF;
+    color: #000;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,11 +12,44 @@ button{
     cursor: pointer;
 }
 
-button:hover{
-    border:2px solid #00F;
+.container:hover{
+    border:2px solid #00b90f;
+    color: #00b90f;
     margin: 9px 19px; /* to compensate the increase in border width*/
 }
 
-img{
+.container img{
     width: 150px;
+}
+
+.container span{
+    margin-top: 1em;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-transform: uppercase; 
+}
+
+/* styles for a card in small size (for menus/navbar) */
+.small{
+    flex-direction: row;
+    border: none;  
+    box-shadow: none;
+    padding: 0;
+    margin: 0 20px;
+}
+
+.small:hover{
+    border:none;
+    margin: 0 20px;
+}
+
+.small img{
+    width: 40px;
+}
+
+.small span{
+    margin: 0 0 0 5px;
+    font-size: 1em;
+    font-weight: 500;
+    text-transform: uppercase; 
 }

@@ -2,16 +2,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 10px 20px;
+    flex-wrap: wrap;
+    margin: 20px auto;
 }
 
 .title{
-    font-size: 2.5em;
+    font-size: 2.7em;
     font-weight: bold;
 }
 
 .actions{
     display: flex;
     justify-content: space-between;
-    width: 30%;
+    flex-wrap: wrap;
 }
