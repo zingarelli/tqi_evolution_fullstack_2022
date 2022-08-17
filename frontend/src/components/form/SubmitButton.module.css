@@ -1,0 +1,14 @@
+.container{    
+    background-color: #d7fad8;
+    border: 1px solid #00b90f;
+    border-radius: 3px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+.container:hover{    
+    background-color: #00b90f;
+    color: #f1f1f1;
+}
