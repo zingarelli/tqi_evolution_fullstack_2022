@@ -1,6 +1,11 @@
+import PurchaseForm from '../form/PurchaseForm.jsx';
+
 function Purchase(){
     return(
-        <h1>Purchase</h1>
+        <div>
+            <h1>Adicionar livros ao Estoque</h1>
+            <PurchaseForm />
+        </div>            
     )
 }
 

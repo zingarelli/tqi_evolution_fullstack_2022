@@ -1,0 +1,12 @@
+.inventoryItemDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #00b90f;
+}
+
+.inventoryItemDetails span{
+    margin-bottom: 5px;
+}
