@@ -1,19 +1,71 @@
 {
-  "posts": [
+  "books": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "title": "Enclausurado",
+      "author": "Ian McEwan",
+      "publisher": "Companhia das Letras",
+      "imageSrc": "",
+      "year": "2016"
+    },
+    {
+      "title": "Mas você vai sozinha?",
+      "author": "Gaía Passarelli",
+      "publisher": "Globo Livros",
+      "imageSrc": "",
+      "year": "2017",
+      "id": 2
+    },
+    {
+      "title": "O Poder do Hábito",
+      "author": "Charles Duhigg",
+      "publisher": "Objetiva",
+      "year": "2012",
+      "id": 3
+    },
+    {
+      "title": "A Quinta Estação",
+      "author": "N. K. Jemisin",
+      "publisher": "Morro Branco",
+      "year": "2020",
+      "id": 4
+    },
+    {
+      "title": "História das Guerras",
+      "author": "Demétrio Magnoli",
+      "publisher": "Contexto",
+      "year": "2006",
+      "id": 5
+    },
+    {
+      "title": "A História de Shuggie Bain",
+      "author": "Douglas Stuart",
+      "publisher": "Intrínseca",
+      "year": "2021",
+      "id": 6
     }
   ],
-  "comments": [
+  "inventory": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "bookId": "1",
+      "quantity": 30,
+      "price": "31.90"
+    },
+    {
+      "bookId": "5",
+      "quantity": 35,
+      "price": "39.90",
+      "id": 2
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "sales": [
+    {
+      "id": 1,
+      "customer": "Matheus",
+      "bookList": [1, 3, 5],
+      "quantity": 3,
+      "totalSale": "82.60"
+    }
+  ]
 }
