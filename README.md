@@ -4,7 +4,7 @@
 
 **Desenvolvido por**: [Matheus Ricardo Uihara Zingarelli](https://www.linkedin.com/in/zingarelli/) - zingarelli.m@gmail.com
 
-## Descrição
+# Descrição
 
 Uma livraria precisa criar seu controle de compra, vendas e estoque de livros. Para tanto, foi solicitado desenvolver inicialmente as seguintes funcionalidades:
 
@@ -15,18 +15,14 @@ Uma livraria precisa criar seu controle de compra, vendas e estoque de livros. P
 Solicitações extras: o desenvolvimento deve ser feito utilizando **React** e **Java**, incluindo **testes automatizados**. Funcionalidades extras poderão ser desenvolvidas caso sejam necessárias. 
 
 # Planejamento
-Este é o planejamento inicial, que será melhorado conforme o projeto for sendo desenvolvido.
-
-O projeto será dividido em dois sub-projetos: frontend e backend. Cada um terá uma lista de atividades a serem efetuadas.
-
-No sub-projeto frontend, será utilizando o **React (versão 18.2.0)** (inserir essas informações no README do sub-projeto?). No sub-projeto BackEnd será utilizado **Java (JDK XX.XX)**. Para o sistema gerenciador de banco de dados será utilizado o **XXXXX**.
+O projeto será dividido em dois sub-projetos: frontend e backend. Cada um terá uma lista de atividades a serem efetuadas. Além disso, será necessário fazer a modelagem do banco de dados.
 
 ## Atividades Modelagem
 - Criar as tabelas que irão representar o sistema: Livros, Compra, Venda, Estoque;
-- Considerar outras tabelas: Clientes, Editoras, Livrarias (para franquias que possuem mais de uma loja);
-- Criar relacionamentos e restrições.
+- Criar relacionamentos entre as tabelas e restrições.
+- Considerar outras tabelas: Clientes, Editoras, Capas (para guardar as capas de livros e suas variações por edição), Livrarias (imaginando no futuro que a livraria se expanda em outras lojas franqueadas);
 
-## Atividades FronEnd
+## Atividades FrontEnd
 - Criar os componentes principais para menus, botões, formulários e seus campos;
 - Criar as páginas de Home, Cadastro de Livros, Compra, Venda;
 - Estilizar as páginas;
@@ -36,21 +32,20 @@ No sub-projeto frontend, será utilizando o **React (versão 18.2.0)** (inserir 
 
 ## Atividades BackEnd
 - Criar as entidades para representar o Banco;
-- Desenvolver a funcionalidade para cadastro de livros;
-- Desenvolver a funcionalidade para cadastro de compra;
-- Desenvolver a funcionalidade para cadastro de venda;
+- Fazer a conexão com o Banco;
+- Desenvolver a funcionalidade para cadastro de Livros;
+- Desenvolver a funcionalidade para cadastro de Compra;
+- Desenvolver a funcionalidade para cadastro de Venda;
 - Criar testes unitários;
+- Fazer a ligação com o FrontEnd;
 - Considerar criação de outros testes.
 
-## Andamento das atividades e considerações
-Descrição das atividades desenvolvidas e observações que forem cabíveis.
+# Atividades
+Foi **desenvolvido somente o FrontEnd do projeto**, sendo que a funcionalidade de vendas de livros não foi finalizada. Dentro da pasta do frontend há um README com mais detalhes do desenvolvimento, do que ficou a ser feito, como rodá-lo localmente, bem como telas da aplicação rodando (utilizando JSON-Server para simular o backend e comunicação com o banco de dados).
 
-# Instalação e configuração
-O projeto foi criado com o npm (versão v16.15.1). 
+Toda a parte de **BackEnd e modelagem do banco**, infelizmente, **não foi desenvolvida** até o prazo final do dia 21/08/2022.
 
-Após fazer o download do projeto, utilize o comando abaixo para rodá-lo localmente:
+# Agradecimentos
+Muito obrigado à DIO e à TQI pela oportunidade de participar tanto do bootcamp quanto do processo seletivo. As aulas, lives e interação no fórum foram muito importantes para ganhar experiência, ter uma visão dos caminhos que quero seguir e onde preciso investir mais em conhecimento e formação. 
 
-`npm start` 
-
-# Protótipo
-Link para o protótipo desenvolvido. Talvez colocar esta seção no início, quando estiver finalizado.
+Este desafio final foi um ótimo aprendizado do quanto ainda preciso me dedicar e continuar nos meus estudos para adquirir experiência e maturidade com as tecnologias, principalmente com Java e toda a parte de BackEnd. Ter chegado até aqui em pouco menos de dois meses foi, para mim, uma grande conquista. Sigamos avante!
