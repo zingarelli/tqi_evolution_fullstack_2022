@@ -1,6 +1,11 @@
+import SaleForm from "../form/SaleForm";
+
 function Sale(){
     return(
-        <h1>Sale</h1>
+        <div>
+            <h1>Adicionar uma Venda</h1>
+            <SaleForm />
+        </div>
     )
 }
 

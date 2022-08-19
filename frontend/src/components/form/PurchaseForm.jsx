@@ -9,9 +9,9 @@ import SubmitButton from "./SubmitButton";
 
 //form to add/update inventory with a selected book
 function PurchaseForm(){
-    const [inventory, setInventory] = useState({}); //list of items in the inventory
+    const [inventory, setInventory] = useState({}); //item to be added to the inventory
     const [bookId, setBookId] = useState(''); //act as the foreign key between books and inventory
-    const [inventoryItem, setInventoryItem] = useState({}); //a single item in the inventory
+    const [inventoryItem, setInventoryItem] = useState({}); //a single item retrieved from the inventory
     const [bookList, setBookList] = useState([]); //list of books registered
     const [showMessage, setShowMessage] = useState(false); //control to show a message when an item is added/updated
 
@@ -98,7 +98,6 @@ function PurchaseForm(){
                 })
                 .catch((err) => console.log(err))
         }
-
     }
 
     //add value of an input to the inventory object

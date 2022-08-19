@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 
-import Card from '../cards/Card';
+import ActionCard from '../cards/ActionCard';
 
 import styles from './Home.module.css'
 import book from '../../img/addBook.png';
@@ -11,13 +11,13 @@ function Home(){
     return(
         <div className={styles.container}>
         <Link to='/book'>
-            <Card text="Novo Livro" icon={book} />
+            <ActionCard text="Novo Livro" icon={book} />
         </Link>
         <Link to='/purchase'>
-            <Card text="Nova Compra" icon={purchase} />
+            <ActionCard text="Nova Compra" icon={purchase} />
         </Link>
         <Link to='/sale'>
-            <Card text="Nova Venda" icon={order} />
+            <ActionCard text="Nova Venda" icon={order} />
         </Link>
         </div>
     )

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 
-import Card from '../cards/Card';
+import ActionCard from '../cards/ActionCard';
 
 import styles from './Navbar.module.css';
 import book from '../../img/addBook.png';
@@ -17,17 +17,17 @@ function Navbar(){
             <ul className={styles.actions}>
                 <li>
                     <Link to='/book'>
-                        <Card text="Novo Livro" icon={book} size='small' />
+                        <ActionCard text="Novo Livro" icon={book} size='small' />
                     </Link>
                 </li>
                 <li>
                     <Link to='/purchase'>
-                        <Card text="Nova Compra" icon={purchase} size='small' />
+                        <ActionCard text="Nova Compra" icon={purchase} size='small' />
                     </Link>
                 </li>
                 <li>
                     <Link to='/sale'>
-                        <Card text="Nova Venda" icon={order} size='small' />
+                        <ActionCard text="Nova Venda" icon={order} size='small' />
                     </Link>
                 </li>
             </ul>

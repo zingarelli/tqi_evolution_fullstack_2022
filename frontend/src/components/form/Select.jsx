@@ -2,7 +2,7 @@ import styles from './Select.module.css';
 
 /**
  * Create a select, an associated label and options from a given list
- * @param { className={styles.container}string} lblText - text for the label
+ * @param {string} lblText - text for the label
  * @param {string} name - text for attributes name/id and of the select element
  * @param {array} options - list of objects to populate the option elements
  * @param {string} handleOnChange - method that will handle onChange event (needs to be implemented by the caller)
