@@ -1,4 +1,4 @@
-import styles from './Card.module.css';
+import styles from './ActionCard.module.css';
 
 /**
  * Create a card, which will act as a link to the appropriate page.
@@ -8,7 +8,7 @@ import styles from './Card.module.css';
  * @param {string} size - size of the card: normal (for main content) or small (for menus)
  * @returns a card component
  */
-function Card({ icon, text, size='normal' }){
+function ActionCard({ icon, text, size='normal' }){
     return(        
         <div className={`${styles.container} ${styles[size]}`} name={text}>
             <img src={icon} alt={text} />
@@ -17,4 +17,4 @@ function Card({ icon, text, size='normal' }){
     )
 }
 
-export default Card;
+export default ActionCard;
