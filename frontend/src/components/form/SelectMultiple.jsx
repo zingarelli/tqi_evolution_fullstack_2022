@@ -1,7 +1,6 @@
 import { useState } from "react";
 
 import BookSaleCard from "../cards/BookSaleCard";
-import Input from "./Input";
 
 import styles from './SelectMultiple.module.css';
 
@@ -25,6 +24,8 @@ function SelectMultiple({ items, legend, handleOnChange, handleSubmit }){
             <form onSubmit={handleSubmit} className={styles.formContainer}>
                 {items.map((item) => (
                     // TODO: create a checkbox component?
+                    // TODO: hide checkbox and add a thicker border when item is clicked
+                    // TODO: value in the input text is being replicated to all inputs. Why?
                     <div key={item.id} className={styles.item}>
                         <input 
                             type="checkbox"

@@ -12,6 +12,7 @@ function Message({ text }){
 
     useEffect(() =>{
         setVisible(true);
+        // TODO: should we set the timeout value as a prop, so it can be changed dinamically?
         setTimeout(() => {
             setVisible(false);
         }, 3000);

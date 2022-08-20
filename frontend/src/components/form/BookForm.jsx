@@ -22,18 +22,16 @@ function BookForm(){
         })
             .then((response) => response.json())
             .then((result) => {
+                //show success message and clear input values
                 setShowMessage(true);
                 setBook('');
             })
             .catch((err) => console.log(err))
     }
+
     //add value of an input to a book object
     function addInput(e){
         setBook({...book, [e.target.name]: e.target.value})
-    }
-
-    function addImage(e){
-        console.log(e.target.value);
     }
     
     return(
@@ -66,7 +64,7 @@ function BookForm(){
                 value={book.publisher}
                 handleOnChange={addInput}
             />
-            {/* TODO: create logic to send the image to DB */}
+            {/* TODO: handle imagem file and create logic to send it to DB */}
             <Input 
                 type='file'
                 lblText='Arquivo da capa:'
@@ -75,7 +73,6 @@ function BookForm(){
                 value={book.imageSrc}
                 handleOnChange={addInput}
             />
-            <p>--- Falta implementar o input de arquivo para upload da capa do livro.</p> <br />
             <Input 
                 type='number'
                 lblText='Ano de Publicação:'

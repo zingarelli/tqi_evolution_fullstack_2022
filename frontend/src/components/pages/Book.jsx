@@ -1,6 +1,5 @@
 import BookForm from '../form/BookForm';
 
-//create page to register a new book
 function Book(){
     return(
         <div>

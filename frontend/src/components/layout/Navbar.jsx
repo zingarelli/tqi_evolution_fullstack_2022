@@ -7,9 +7,7 @@ import book from '../../img/addBook.png';
 import purchase from '../../img/addPurchase.png';
 import order from '../../img/addOrder.png';
 
-/**
- * Creates header menu, with logo and links to other pages
- */
+// Creates header menu, with logo and links to other pages
 function Navbar(){
     return(
         <nav className={styles.menu}>
