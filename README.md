@@ -41,7 +41,7 @@ O projeto será dividido em dois sub-projetos: frontend e backend. Cada um terá
 - Considerar criação de outros testes.
 
 # Atividades
-Foi **desenvolvido somente o FrontEnd do projeto**, sendo que a funcionalidade de vendas de livros não foi finalizada. Dentro da pasta do frontend há um README com mais detalhes do desenvolvimento, do que ficou a ser feito, como rodá-lo localmente, bem como telas da aplicação rodando (utilizando JSON-Server para simular o backend e comunicação com o banco de dados).
+Foi **desenvolvido *parcialmente* o FrontEnd do projeto**, sendo que a funcionalidade de vendas de livros não foi finalizada, faltaram ser feitos alguns ajuste e inclusão de testes unitários. Dentro da pasta do frontend há um README com mais detalhes do desenvolvimento, o que foi e não foi feito, como rodá-lo localmente, bem como telas da aplicação rodando (utilizando JSON-Server para simular o backend e comunicação com o banco de dados).
 
 Toda a parte de **BackEnd e modelagem do banco**, infelizmente, **não foi desenvolvida** até o prazo final do dia 21/08/2022.
 

@@ -8,12 +8,12 @@ Versão npm 16.15.1.
 # O que foi implementado
 - Backend e banco de dados mockado: foi utilizado o JSON-Server e um arquivo db.json para simular requisições ao backend e persistência dos dados. Mais detalhes se encontram na seção ["Instruções para rodar o projeto"](#instruções-para-rodar-o-projeto);
 - Página inicial: contém três botões que levam às telas para executar as ações de: cadastro de livro, inclusão de compra ao estoque, cadastro de venda. Os mesmos botões se encontram no header da página, em formato menor, para que as ações possam ser feitas em qualquer tela;
-- Tela de Cadastro de Livro: é possível digitar e salvar o livro no banco mockado pelo JSON-Server. Ao salvar, uma mensagem de sucesso é exibida na tela por 3 segundos;
+- Tela de Cadastro de Livro: é possível preencher os campos, incluir um arquivo de imagem e salvar o livro no banco mockado pelo JSON-Server. Ao salvar, uma mensagem de sucesso é exibida na tela por 3 segundos;
 - Tela de Inclusão de Compra: é feita uma requisição no JSON-Server para recuperar a lista de livros cadastrada, que pode então ser selecionada. Quando um livro já existe em estoque, são exibidos a quantidade atual em estoque e o preço atual. Ao salvar, uma mensagem de sucesso é exibida na tela por 3 segundos e, caso o livro já exista em estoque, a quantidade e preço são atualizados na tela. No banco de dados, caso o livro ainda não se encontre em estoque, uma entrada é criada para ele; caso contrário, sua quantidade e preço são atualizados;
 - Tela de cadastro de Venda (inacabada): a maior parte do visual da tela foi feito, inclusive mostrando todos os livros que estão em estoque, para que possam ser selecionados e informada a quantidade comprada. Ao clicar no botão de "Salvar venda", por enquanto é somente salvo no banco o nome do cliente. 
 
 # Implementações não feitas
-1. No cadastro de livro, não foi implementado o input para upload da imagem de capa de livro. Esse input é diferente e precisava ser cuidado com mais calma, para entender como salvar o arquivo no banco;
+1. No cadastro de livro, não foi implementada a lógica para upload da imagem de capa de livro no banco. É somente salvo o fakepath da imagem;
 2. A tela de cadastro de Venda é a que ficou inacabada. Faltou: finalizar a lógica de inclusão de venda no banco de dados e atualização do estoque, buscar informações no banco para popular alguns campos da tela, melhorar a parte visual, e reestruturar os componentes;
 3. Em todas as telas, ficou faltando fazer validações nos inputs, para impedir inclusão de valor negativo e verificar se um valor numérico foi inserido corretamente.
 4. Não foram implementados testes unitários :(
@@ -25,13 +25,13 @@ Versão npm 16.15.1.
 ![Página Inicial](https://user-images.githubusercontent.com/19349339/185684237-6c47027a-ac7f-4a73-b9c2-ad7090992dc4.png)
 
 ## Cadastro de Livro
-![Cadastro de Livro](https://user-images.githubusercontent.com/19349339/185684293-70e4987e-2cec-4181-a119-14c652c81c30.png)
+![Tela do cadastro de livro](https://user-images.githubusercontent.com/19349339/185751479-87bd47b8-a9d5-4bb6-84b7-a00280ba4f47.png)
 
 ## Inclusão de Livro ao Estoque
-![Inclusão de livro ao estoque](https://user-images.githubusercontent.com/19349339/185684354-995a9fe6-9d09-40c6-b989-efee57a623d1.png)
+![Tela da inclusão de livro ao estoque](https://user-images.githubusercontent.com/19349339/185684354-995a9fe6-9d09-40c6-b989-efee57a623d1.png)
 
 ## Cadastro de Venda
-![Inclusão de venda](https://user-images.githubusercontent.com/19349339/185688386-95a64d0f-c6c6-426b-84d3-77c14277a7e9.png)
+![Tela da inclusão de uma venda](https://user-images.githubusercontent.com/19349339/185688386-95a64d0f-c6c6-426b-84d3-77c14277a7e9.png)
 
 # Instruções para rodar o projeto
 
