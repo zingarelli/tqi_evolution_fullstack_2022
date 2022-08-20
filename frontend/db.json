@@ -5,14 +5,14 @@
       "title": "Enclausurado",
       "author": "Ian McEwan",
       "publisher": "Companhia das Letras",
-      "imageSrc": "",
+      "imageSrc": "C:\\fakepath\\150.png",
       "year": "2016"
     },
     {
       "title": "Mas você vai sozinha?",
       "author": "Gaía Passarelli",
       "publisher": "Globo Livros",
-      "imageSrc": "",
+      "imageSrc": "C:\\fakepath\\150.png",
       "year": "2017",
       "id": 2
     },
@@ -20,6 +20,7 @@
       "title": "O Poder do Hábito",
       "author": "Charles Duhigg",
       "publisher": "Objetiva",
+      "imageSrc": "C:\\fakepath\\150.png",
       "year": "2012",
       "id": 3
     },
@@ -27,6 +28,7 @@
       "title": "A Quinta Estação",
       "author": "N. K. Jemisin",
       "publisher": "Morro Branco",
+      "imageSrc": "C:\\fakepath\\150.png",
       "year": "2020",
       "id": 4
     },
@@ -34,6 +36,7 @@
       "title": "História das Guerras",
       "author": "Demétrio Magnoli",
       "publisher": "Contexto",
+      "imageSrc": "C:\\fakepath\\150.png",
       "year": "2006",
       "id": 5
     },
@@ -41,8 +44,17 @@
       "title": "A História de Shuggie Bain",
       "author": "Douglas Stuart",
       "publisher": "Intrínseca",
+      "imageSrc": "C:\\fakepath\\150.png",
       "year": "2021",
       "id": 6
+    },
+    {
+      "title": "Pandas Python",
+      "author": "Eduardo Corrêa",
+      "publisher": "Casa do Código",
+      "imageSrc": "C:\\fakepath\\150.png",
+      "year": "2020",
+      "id": 7
     }
   ],
   "inventory": [
@@ -63,7 +75,11 @@
     {
       "id": 1,
       "customer": "Matheus",
-      "bookList": [1, 3, 5],
+      "bookList": [
+        1,
+        3,
+        5
+      ],
       "quantity": 3,
       "totalSale": "82.60"
     }
